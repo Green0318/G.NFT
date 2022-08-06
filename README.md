@@ -1,6 +1,6 @@
 # NFT
 
-This is smart contract that mint NFT's. Basic. Dynamic. Randomness.
+This is smart contracts that mint NFT's. Basic. Dynamic. Randomness.
 
 ### Requirements:
 
