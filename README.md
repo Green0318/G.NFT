@@ -60,4 +60,4 @@ yarn hardhat coverage
 <img align="center" src="https://img.shields.io/badge/chainlink-375BD2?style=for-the-badge&logo=chainlink&logoColor=white" />
 <img align="left" src="https://img.shields.io/badge/hardhat-000000?style=for-the-badge" />
 <img align="left" src="https://img.shields.io/badge/Javascript-9cf?style=for-the-badge&" />
-<img align="left" src="https://img.shields.io/badge/-NFT-green?style=for-the-badge" /> 
+<img align="left" src="https://img.shields.io/badge/-NFT-white?style=for-the-badge" /> 
