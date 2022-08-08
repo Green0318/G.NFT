@@ -5,10 +5,10 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 contract BasicNft is ERC721 {
     string public constant TOKEN_URI =
-        "https://ipfs.io/ipfs/QmUWgTDruGEkTcms7YFfTFhNbpGDdK5epNcwwbo5qifKJ9?filename=BasicNft.json"; // its link for file json where must be link for the image
+        "https://ipfs.io/ipfs/QmWjewZKSimef95znbD4kMQNnPkgFQWsbdE7HEkEf9NyjZ?filename=BasicNftCopy.json"; // its link for file json where must be link for the image
     uint256 private s_tokenCounter;
 
-    constructor() ERC721("Title", "TITL") {
+    constructor() ERC721("Ocean", "OCN") {
         s_tokenCounter = 0;
     }
 
@@ -19,8 +19,7 @@ contract BasicNft is ERC721 {
     }
 
     function getTokenURI(
-        uint256 tokenId /*override*/
-    ) public view returns (string memory) {
+        uint256 tokenId) public view override returns (string memory) {
         return TOKEN_URI;
     }
 
