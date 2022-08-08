@@ -8,7 +8,7 @@ module.exports = async function ({ getNamedAccounts }) {
     const basicNft = await ethers.getContract("BasicNft", deployer)
     const basicMintTx = await basicNft.mintNft()
     await basicMintTx.wait(1)
-    console.log(`Basic NFT index 0 tokenURI: ${await basicNft.getTokenURI(0)}`)
+    console.log(`Basic NFT index 0 tokenURI: ${await basicNft.tokenURI(0)}`)
 
     // Random IPFS NFT
     const randomIpfsNft = await ethers.getContract("RandomIpfsNft", deployer)
