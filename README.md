@@ -33,7 +33,7 @@ yarn add --dev hardhat
 - Dynamic SVG NFT - Hosted 100% on-chain, uses price feeds to be dynamic.
 
 
-### Useage:
+### Usage:
 
 Deploy at local network:
 
